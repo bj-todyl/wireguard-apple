@@ -120,7 +120,7 @@ class PacketTunnelSettingsGenerator {
         ipv4Settings.includedRoutes = ipv4IncludedRoutes
         
         // TODO: - Implement API to provide excluded routes once endpoint is available.
-        let excludedRouteStrings = ["104.19.222.79", "104.19.223.79"]
+        let excludedRouteStrings = [String]()
 
         var excludedRoutes = [NEIPv4Route]()
 
