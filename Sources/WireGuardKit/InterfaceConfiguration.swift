@@ -11,6 +11,7 @@ public struct InterfaceConfiguration {
     public var mtu: UInt16?
     public var dns = [DNSServer]()
     public var dnsSearch = [String]()
+    public var excludedRoutes = [String]()
 
     public init(privateKey: PrivateKey) {
         self.privateKey = privateKey
